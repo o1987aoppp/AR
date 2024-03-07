@@ -1,0 +1,18 @@
+<model-viewer src="GTR_R35_C3D.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls tone-mapping="commerce" poster="poster.webp" shadow-intensity="1" auto-rotate camera-target="0m 0.08m 0m">
+    <button class="Hotspot" slot="hotspot-2" data-position="-0.0953704850699406m 0.09544512137529793m -0.049293418175697434m" data-normal="-0.9815566438692762m 0.18913388227437528m 0.02783755470413271m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Right Door</div>
+    </button><button class="Hotspot" slot="hotspot-4" data-position="0.09555357252303663m 0.09467920411529564m -0.050736891471199454m" data-normal="0.9814741229305506m 0.1895556986430879m 0.027878004405576376m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">Left Door</div>
+    </button><button class="Hotspot" slot="hotspot-5" data-position="-0.007766725902171978m 0.09913317986454188m 0.18129704526286997m" data-normal="-0.024513140741008778m 0.9763905765958213m 0.21461721241757686m" data-visibility-attribute="visible">
+        <div class="HotspotAnnotation">VR38DETT</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+        <div class="update-bar"></div>
+    </div>
+    <button slot="ar-button" id="ar-button">
+        View in your space
+    </button>
+    <div id="ar-prompt">
+        <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+    </div>
+</model-viewer>
